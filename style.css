@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    word-spacing: 10px;
+    line-height: 2.0; 
+}
+
+header {
+    background-image: url(./Assets/images/g1.png);
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    color: rgb(66, 68, 69);
+}
+
+header h1 {
+    margin: 0;
+}
+
+.hps {
+    text-align: justify; 
+    padding: 0 10%; 
+}
+
+.hps img {
+    width: 50%; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+.hps p {
+    margin: 10px 0; 
+    font-size: 18px; 
+}
+
+.hps p::first-letter,.hps2 p::first-letter {
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding: 4px; 
+}
+
+.hps::selection,.hps2::selection,.hps3::selection {
+    background-color: black;
+    color: white;
+}
+
+.hps2, .hps3 {
+    text-align: justify; 
+    padding: 0 10%; 
+    margin-bottom: 30px;
+    
+}
+
+.hps2 h1, .hps3 h1{
+    text-decoration: underline;
+}
+
+.hps2 p, .hps3 p {
+    margin: 10px 0; 
+    font-size: 18px; 
+}
+
+.hps2 p::selection, .hps3 p::selection {
+    background-color: black;
+    color: white;
+}
+.hps2 li, .hps3 li{
+    font-weight: 500;
+    font-size: larger;
+}
+
+.hps3 ol {
+    margin-top: 20px; 
+}
